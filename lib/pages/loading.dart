@@ -63,7 +63,7 @@ class _LoadingPageState extends State<LoadingPage> {
     else{
       city_name = "Noida";
     }
-    // callAPI(city_name);
+    callAPI(city_name);
 
     return Scaffold(
       body: Stack(
