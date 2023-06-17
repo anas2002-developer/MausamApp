@@ -5,7 +5,7 @@ import 'package:mausam_app/pages/location.dart';
 
 void main() {
   runApp(MaterialApp(
-
+    debugShowCheckedModeBanner: false,
     routes: {
       "/" : (context) => LoadingPage(),
       "/home" : (context) => HomePage(),

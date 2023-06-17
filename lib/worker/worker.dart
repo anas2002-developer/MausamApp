@@ -31,7 +31,7 @@ class Worker{
       String weather_desc = weather_dict["description"];
 
       Map main = jsonData['main'];
-      String getTemp = ((main['temp'] - 32)*(5/9)).toString();
+      String getTemp = (main['temp'] - 273.15).toString();
 
       Map wind = jsonData['wind'];
       String getWindspeed = (wind['speed'] * 3.6).toString();
